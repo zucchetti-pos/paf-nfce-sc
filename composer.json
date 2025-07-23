@@ -1,10 +1,10 @@
 {
-    "name": "ismaeladriano/paf-nfce-sc",
+    "name": "zucchetti-pos/paf-nfce-sc",
     "type": "library",
     "version": "0.0.1",
     "description": "API para geração dos arquivos para PAF-NFCe",
     "keywords": ["sc", "paf-nfce"],
-    "homepage": "https://github.com/ismaeladriano/paf-nfce-sc",
+    "homepage": "https://github.com/zucchetti-pos/paf-nfce-sc",
     "license": ["GPL-3.0+", "LGPL-3.0+"],
     "authors": [
         {
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-          "IsmaelAdriano\\PAFNFCe\\": "src/"
+          "PAFNFCe\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IsmaelAdriano\\PAFNFCe\\Tests\\": "tests/"
+            "PAFNFCe\\Tests\\": "tests/"
         }
     },
     "scripts": {

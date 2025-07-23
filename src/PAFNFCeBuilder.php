@@ -1,27 +1,27 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe;
+namespace PAFNFCe;
 
-use IsmaelAdriano\PAFNFCe\Blocks\BlockA2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockU1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockP2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockE2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD3;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD4;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockEAD;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockJ1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockJ2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ3;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ4;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ9;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockV1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockV2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockV3;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockV4;
-use IsmaelAdriano\PAFNFCe\PAFNFCe;
+use PAFNFCe\Blocks\BlockA2;
+use PAFNFCe\Blocks\BlockU1;
+use PAFNFCe\Blocks\BlockP2;
+use PAFNFCe\Blocks\BlockE2;
+use PAFNFCe\Blocks\BlockD2;
+use PAFNFCe\Blocks\BlockD3;
+use PAFNFCe\Blocks\BlockD4;
+use PAFNFCe\Blocks\BlockEAD;
+use PAFNFCe\Blocks\BlockJ1;
+use PAFNFCe\Blocks\BlockJ2;
+use PAFNFCe\Blocks\BlockZ1;
+use PAFNFCe\Blocks\BlockZ2;
+use PAFNFCe\Blocks\BlockZ3;
+use PAFNFCe\Blocks\BlockZ4;
+use PAFNFCe\Blocks\BlockZ9;
+use PAFNFCe\Blocks\BlockV1;
+use PAFNFCe\Blocks\BlockV2;
+use PAFNFCe\Blocks\BlockV3;
+use PAFNFCe\Blocks\BlockV4;
+use PAFNFCe\PAFNFCe;
 
 final class PAFNFCeBuilder extends PAFNFCe
 {

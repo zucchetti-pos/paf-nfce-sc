@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
-    <testsuite name="Sintegra Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
-      <testsuite name="IsmaelAdriano\PAFNFCe\Tests\A2Test" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/A2Test.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
-        <testcase name="testA2" class="IsmaelAdriano\PAFNFCe\Tests\A2Test" classname="IsmaelAdriano.PAFNFCe.Tests.A2Test" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/A2Test.php" line="11" assertions="1" time="0.002938"/>
+  <testsuite name="" tests="10" assertions="4" errors="6" warnings="0" failures="1" skipped="0" time="0.004615">
+    <testsuite name="Sintegra Test Suite" tests="10" assertions="4" errors="6" warnings="0" failures="1" skipped="0" time="0.004615">
+      <testsuite name="PAFNFCe\Tests\A2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/A2Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002006">
+        <testcase name="testA2" class="PAFNFCe\Tests\A2Test" classname="PAFNFCe.Tests.A2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/A2Test.php" line="11" assertions="0" time="0.002006">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\A2Test::testA2
+InvalidArgumentException: [A2] A2 campo: DATA valor incorreto [27022021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/A2.php:71
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/A2Test.php:20
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\D2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D2Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000237">
+        <testcase name="testD2" class="PAFNFCe\Tests\D2Test" classname="PAFNFCe.Tests.D2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D2Test.php" line="11" assertions="0" time="0.000237">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\D2Test::testD2
+InvalidArgumentException: [D2] D2 campo: DATA valor incorreto [03022021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/D2.php:79
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D2Test.php:21
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\D3Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D3Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000282">
+        <testcase name="testD3" class="PAFNFCe\Tests\D3Test" classname="PAFNFCe.Tests.D3Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D3Test.php" line="11" assertions="0" time="0.000282">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\D3Test::testD3
+InvalidArgumentException: [D3] D3 campo: DATA_INCLUSAO valor incorreto [03022021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/D3.php:127
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D3Test.php:30
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\D4Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D4Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000277">
+        <testcase name="testD4" class="PAFNFCe\Tests\D4Test" classname="PAFNFCe.Tests.D4Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D4Test.php" line="11" assertions="0" time="0.000277">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\D4Test::testD4
+InvalidArgumentException: [D4] D4 campo: DATA_ALTERACAO valor incorreto [03022021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/D4.php:135
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/D4Test.php:32
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\E2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/E2Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000258">
+        <testcase name="testE2" class="PAFNFCe\Tests\E2Test" classname="PAFNFCe.Tests.E2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/E2Test.php" line="11" assertions="0" time="0.000258">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\E2Test::testE2
+InvalidArgumentException: [E2] E2 campo: DATA_EMISSAO valor incorreto [01032021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+[E2] E2 campo: DATA_ESTOQUE valor incorreto [01032021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/E2.php:103
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/E2Test.php:24
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\EADTest" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/EADTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000253">
+        <testcase name="testEAD" class="PAFNFCe\Tests\EADTest" classname="PAFNFCe.Tests.EADTest" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/EADTest.php" line="11" assertions="1" time="0.000253"/>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\J1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/J1Test.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.000226">
+        <testcase name="testJ1" class="PAFNFCe\Tests\J1Test" classname="PAFNFCe.Tests.J1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/J1Test.php" line="11" assertions="0" time="0.000226">
+          <error type="InvalidArgumentException">PAFNFCe\Tests\J1Test::testJ1
+InvalidArgumentException: [J1] J1 campo: DATA_EMISSAO valor incorreto [03022021]. (validação: ^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$)
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Common/Element.php:92
+/Users/lidani/projects/zucchetti/paf-nfce-sc/src/Elements/J1.php:127
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/J1Test.php:27
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\P2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/P2Test.php" tests="1" assertions="1" errors="0" warnings="0" failures="1" skipped="0" time="0.000362">
+        <testcase name="testP2" class="PAFNFCe\Tests\P2Test" classname="PAFNFCe.Tests.P2Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/P2Test.php" line="11" assertions="1" time="0.000362">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">PAFNFCe\Tests\P2Test::testP2
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'P22337989700010100000000000001       19059090Produto 1                                         KG    ATT0700000000010000'
++'P22337989700010100000000000001       19059090Produto 1                                         KG    ATT000700000000010000'
+
+/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/P2Test.php:30
+phpvfscomposer:///Users/lidani/projects/zucchetti/paf-nfce-sc/vendor/phpunit/phpunit/phpunit:60</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\U1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/U1Test.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000281">
+        <testcase name="testU1" class="PAFNFCe\Tests\U1Test" classname="PAFNFCe.Tests.U1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/U1Test.php" line="11" assertions="1" time="0.000281"/>
+      </testsuite>
+      <testsuite name="PAFNFCe\Tests\Z1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/Z1Test.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000433">
+        <testcase name="testZ1" class="PAFNFCe\Tests\Z1Test" classname="PAFNFCe.Tests.Z1Test" file="/Users/lidani/projects/zucchetti/paf-nfce-sc/tests/Z1Test.php" line="11" assertions="1" time="0.000433"/>
       </testsuite>
     </testsuite>
   </testsuite>

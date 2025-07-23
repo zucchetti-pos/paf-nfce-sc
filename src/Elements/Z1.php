@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Elements;
+namespace PAFNFCe\Elements;
 
-use IsmaelAdriano\PAFNFCe\Common\Element;
+use PAFNFCe\Common\Element;
 use \stdClass;
 
 class Z1 extends Element

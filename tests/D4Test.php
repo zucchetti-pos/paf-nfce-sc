@@ -1,18 +1,19 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Tests;
+namespace PAFNFCe\Tests;
 
-use IsmaelAdriano\PAFNFCe\Elements\D3;
+use PAFNFCe\Elements\D4;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 
-class D3Test extends TestCase
+class D4Test extends TestCase
 {
-    public function testD3()
+    public function testD4()
     {
         $std = new stdClass();
-        $std->NUMERO = '0000000002';
-        $std->DATA_INCLUSAO = '03022021';
+        $std->NUMERO = 2;
+        $std->DATA_ALTERACAO = '03022021';
+        $std->HORA_ALTERACAO = '112733';
         $std->NUMERO_ITEM = '1';
         $std->CODIGO_PRODUTO = 1;
         $std->DESCRICAO = 'Produto 1';
@@ -27,10 +28,11 @@ class D3Test extends TestCase
         $std->INDICADOR_CANCELAMENTO = 'N';
         $std->CASAS_DECIMAIS_QTD = 2;
         $std->CASAS_DECIMAIS_VLR = 2;
-        $b1 = new D3($std);
+        $std->TIPO_ALTERACAO = 'I';
+        $b1 = new D4($std);
         $resp = "{$b1}";
 
-        $expected = 'D30000000002   0302202100100000000000001Produto 1                                                                                           0000100KG 00010000000000000000000000000000010000T0700N22';
+        $expected = 'D400000000000020302202111273300000000000001Produto 1                                                                                           0000100KG 00010000000000000000000000000000010000T0700N22I';
 
         $this->assertEquals($expected, $resp);
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Tests;
+namespace PAFNFCe\Tests;
 
-use IsmaelAdriano\PAFNFCe\Elements\P2;
+use PAFNFCe\Elements\P2;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

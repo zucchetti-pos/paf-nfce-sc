@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Tests;
+namespace PAFNFCe\Tests;
 
-use IsmaelAdriano\PAFNFCe\Elements\EAD;
+use PAFNFCe\Elements\EAD;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Common;
+namespace PAFNFCe\Common;
 
 use \stdClass;
 use NFePHP\Common\Strings;
-use IsmaelAdriano\PAFNFCe\Common\ElementInterface;
+use PAFNFCe\Common\ElementInterface;
 use Exception;
 
 abstract class Element implements ElementInterface

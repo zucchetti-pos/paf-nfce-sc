@@ -1,9 +1,9 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Blocks;
+namespace PAFNFCe\Blocks;
 
-use IsmaelAdriano\PAFNFCe\Elements;
-use IsmaelAdriano\PAFNFCe\Common\Block;
+use PAFNFCe\Elements;
+use PAFNFCe\Common\Block;
 
 final class BlockZ1 extends Block
 {

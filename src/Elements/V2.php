@@ -1,9 +1,9 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Elements;
+namespace PAFNFCe\Elements;
 
-use IsmaelAdriano\PAFNFCe\Common\Element;
-use IsmaelAdriano\PAFNFCe\Common\ElementInterface;
+use PAFNFCe\Common\Element;
+use PAFNFCe\Common\ElementInterface;
 use \stdClass;
 
 class V2 extends Element implements ElementInterface

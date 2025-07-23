@@ -1,6 +1,6 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Common;
+namespace PAFNFCe\Common;
 
 interface BlockInterface
 {
