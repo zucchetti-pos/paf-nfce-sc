@@ -134,7 +134,7 @@ abstract class Element implements ElementInterface
         return false;
     }
 
-    protected function formater($value, $format = null, $fieldname = '', $length)
+    protected function formater($value, $format, $fieldname, $length)
     {
         if ($value === null) {
             return $value;
@@ -177,7 +177,7 @@ abstract class Element implements ElementInterface
         $intdig = (int) $n[0];
         if ($nint > $intdig) {
             throw new \InvalidArgumentException("[$this->reg] O [$fieldname] é maior "
-            . "que o permitido [$format].");
+                . "que o permitido [$format].");
         }
         if ($mdec !== false) {
             $mm = explode('-', $n[1]);
