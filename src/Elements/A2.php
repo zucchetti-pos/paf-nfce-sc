@@ -45,7 +45,7 @@ class A2 extends Element implements ElementInterface
         ],
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{11,14}$',
+            'regex' => '^[A-Z0-9]{11,14}$',
             'required' => false,
             'info' => 'CNPJ do cliente da NFCe.',
             'format' => 'totalNumber',

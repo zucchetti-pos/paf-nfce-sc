@@ -13,7 +13,7 @@ class V1 extends Element implements ElementInterface
     protected $parameters = [
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '^[A-Z0-9]{14}$',
             'required' => true,
             'info' => 'CNPJ do estabelecimento usuário do PAF- NFC-e',
             'format' => '',

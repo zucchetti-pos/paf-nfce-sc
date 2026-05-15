@@ -14,7 +14,7 @@ class Z1 extends Element
     protected $parameters = [
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '^[A-Z0-9]{14}$',
             'required' => true,
             'info' => 'Número de inscrição do estabelecimento matriz da pessoa jurídica no CNPJ.',
             'format' => '',

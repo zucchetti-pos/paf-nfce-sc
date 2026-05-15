@@ -14,7 +14,7 @@ class Z9 extends Element
     protected $parameters = [
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '^[A-Z0-9]{14}$',
             'required' => true,
             'info' => 'CNPJ da empresa desenvolvedora do PAFNFC-e',
             'format' => '',
