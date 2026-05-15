@@ -14,7 +14,7 @@ class Z4 extends Element
     protected $parameters = [
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{11,14}$',
+            'regex' => '^[A-Z0-9]{11,14}$',
             'required' => true,
             'info' => 'CNPJ d do cliente da NFCe.',
             'format' => '',
